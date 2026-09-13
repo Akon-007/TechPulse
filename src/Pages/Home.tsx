@@ -1,5 +1,6 @@
 import { Search, ArrowUpRight } from "lucide-react";
 import Nav from "./Nav";
+import Footer from "./Footer";
 
 
 interface Post {
@@ -214,6 +215,8 @@ export default function Home() {
           </button>
         </div>
       </section>
+      
+      <Footer />
     </div>
   );
 }
